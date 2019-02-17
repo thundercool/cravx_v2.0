@@ -19,6 +19,7 @@ import com.astrika.abg.model.User;
 public class Application extends SpringBootServletInitializer {
 
 	public static void main(String args[]) {
+		System.out.println("Test SuccessFull");
 		SpringApplication.run(Application.class);
 	}
 
