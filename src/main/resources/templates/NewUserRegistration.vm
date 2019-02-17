@@ -1,0 +1,7 @@
+<p><strong>Dear </strong><strong>$userID,</strong></p>
+<p><span style="font-weight: 400;">Welcome to our portal. We look forward to your helping the Participants. </span></p>
+<p><span style="font-weight: 400;">An account was created for you on the Platform. Your Login Id is: 
+</span><span style="font-weight: 400;">$email_address</span><span style="font-weight: 400;"><br /></span> 
+<span style="font-weight: 400;">Your one time password to login and complete your profile is </span><span style="font-weight: 400;">$OTP</span></p>
+<p><span style="font-weight: 400;">Please change your password on your first login. Keep this information confidential and 
+do not share credentials with anyone.</span></p>
