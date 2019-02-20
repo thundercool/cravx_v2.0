@@ -110,7 +110,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-12">
-                                    <div class="input-group">
+                                    <div class="input-group passwordCheck">
                                         <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
                                         <input type="password" id="login-password" name="password" class="form-control input-lg"
                                             placeholder="Password">
@@ -119,10 +119,10 @@
                             </div>
                             <div class="form-group form-actions">
                                 <div class="col-xs-4">
-                                   <!--  <label class="switch switch-primary" data-toggle="tooltip" title="Remember Me?">
-                                        <input type="checkbox" id="login-remember-me" name="login-remember-me" checked>
+                                    <label class="switch switch-primary" data-toggle="tooltip" title="Is Waiter?">
+                                        <input type="checkbox" id="is-waiter" name="is-waiter" unchecked>
                                         <span></span>
-                                    </label> -->
+                                    </label>
                                 </div>
                                 <div class="col-xs-8 text-right">
                                     <button type="submit" class="btn btn-sm btn-primary">

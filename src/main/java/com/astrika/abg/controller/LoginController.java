@@ -133,7 +133,6 @@ public class LoginController {
 
 		if (logout != null)
 			model.put("message", "You have been logged out successfully.");
-
 		return "common/login";
 	}
 
@@ -169,14 +168,14 @@ public class LoginController {
 				if(role.getName().equalsIgnoreCase(RoleEnum.CRAVX_ADMIN.getName()) || role.getName().equalsIgnoreCase(RoleEnum.SUPER_ADMIN.getName())) {
 					return "/admin/superadmin/dashboard";
 				}
-				if(role.getName().equalsIgnoreCase(RoleEnum.RESTAURANT_ADMIN.getName())) {
-					return "";
+				if(role.getName().equalsIgnoreCase(RoleEnum.OUTLET_ADMIN.getName())) {
+					return "/admin/outlet/dashboard";
 				}
 				if(role.getName().equalsIgnoreCase(RoleEnum.MANAGER.getName())) {
-					return "";
+					return "/admin/manager/dashboard";
 				}
-				if(role.getName().equalsIgnoreCase(RoleEnum.VAITOR.getName())) {
-					return "";
+				if(role.getName().equalsIgnoreCase(RoleEnum.WAITER.getName())) {
+					return "/admin/waiter/dashboard";
 				}
 			}
 		return "redirect:/Logout";

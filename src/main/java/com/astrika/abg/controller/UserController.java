@@ -64,9 +64,6 @@ public class UserController {
 			@RequestParam(value = "id") Long id,
 			@RequestParam(value = "success", required = false, defaultValue = "") String success,
 			Map<String, Object> model) throws NoSuchUserException {
-		/*if (success != null && !success.isEmpty()) {
-			model.put("success", success);
-		}*/
 		model.put("user", userService.getLoggedInUser());
 		model.put("objUser", userService.findByUserId(id));
 		return "admin/user/edituser";

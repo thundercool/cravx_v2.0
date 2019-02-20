@@ -3,9 +3,9 @@ package com.astrika.abg.enums;
 public enum RoleEnum {
 	SUPER_ADMIN(1,"SUPERADMIN"),
 	CRAVX_ADMIN(2,"CRAVXADMIN"),
-	RESTAURANT_ADMIN(3,"RESTAURANTADMIN"),
+	OUTLET_ADMIN(3,"OUTLETADMIN"),
 	MANAGER(4,"MANAGER"),
-	VAITOR(5,"VAITOR");
+	WAITER(5,"WAITER");
 
 	private final int id;
 	
